@@ -55,7 +55,6 @@ class OperadorTour extends ReservaHotel {
     private descuento: number;
 
     constructor(reservas: Reserva[]) {
-    //definir los precios de las habitaciones y se pasan al padre
     const preciosHabitacion = {
         standard: 100,
         suite: 100,
